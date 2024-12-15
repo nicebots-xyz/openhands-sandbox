@@ -7,3 +7,5 @@ RUN apt-get update && apt-get install -y wget && wget https://github.com/hashico
     && tar -xzf copywrite_0.19.0_linux_x86_64.tar.gz \
     && mv copywrite /usr/local/bin/ \
     && rm copywrite_0.19.0_linux_x86_64.tar.gz
+
+RUN alias cls="clear"
