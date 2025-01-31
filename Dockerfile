@@ -1,4 +1,4 @@
-FROM docker.all-hands.dev/all-hands-ai/runtime:0.21-nikolaik
+FROM docker.all-hands.dev/all-hands-ai/runtime:0.22-nikolaik
 
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 RUN pip install pdm
